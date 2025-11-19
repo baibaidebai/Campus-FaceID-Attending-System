@@ -1,0 +1,25 @@
+# 通用备份文件和压缩包（按需添加）
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Node.js依赖
+node_modules/
+
+# Java依赖
+*.class
+target/
+
+# Python依赖
+__pycache__/
+*.pyc
+
+# 前端构建产物
+/dist/
+/build/
+
+# 其他常见依赖
+.DS_Store
+Thumbs.db

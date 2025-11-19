@@ -1,0 +1,35 @@
+{
+  "name": "attending_system",
+  "version": "0.0.1",
+  "description": "Campus-FaceID-Attending-System-BackEnd",
+  "main": "begin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch src --watch config src/index.js --exec babel-node"
+  },
+  "keywords": [
+    "[\"attendance\"",
+    "\"faceid\"",
+    "\"api\"",
+    "\"express\"",
+    "\"mysql\"]"
+  ],
+  "author": "Lxh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.38",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^10.0.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
